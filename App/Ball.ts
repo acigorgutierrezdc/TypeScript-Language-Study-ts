@@ -68,7 +68,7 @@ declare function calculatePayForEmployee(id: number, ...args: [...number[]]): nu
 
 calculatePayForEmployee(staff[0][0], payStubs[0][1]);
 calculatePayForEmployee(staff[1][0], payStubs[1][1], payStubs[1][2]);
-
+calculatePayForEmployee(staff[1][0], payStubs[1][1], payStubs[1][7]);
 //
 // https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html#tuples-in-rest-parameters-and-spread-expressions
 // https://auth0.com/blog/typescript-3-exploring-tuples-the-unknown-type/
